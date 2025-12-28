@@ -4049,6 +4049,48 @@
 		)
 	)
 	(sheet
+		(at 21.59 91.44)
+		(size 29.21 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6eac1b2a-a67c-40af-8859-1b9af68b0985")
+		(property "Sheetname" "Battery Control"
+			(at 21.59 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_control.kicad_sch"
+			(at 21.59 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ebike"
+				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 52.07)
 		(size 27.94 12.7)
 		(exclude_from_sim no)
@@ -4064,7 +4106,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e63b1961-d904-476f-9eef-e137f6634033")
-		(property "Sheetname" "Battery Management"
+		(property "Sheetname" "Power Control"
 			(at 21.59 51.3584 0)
 			(effects
 				(font
@@ -4073,7 +4115,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "batteryman.kicad_sch"
+		(property "Sheetfile" "power.kicad_sch"
 			(at 21.59 65.3546 0)
 			(effects
 				(font

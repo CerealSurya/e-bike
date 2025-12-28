@@ -632,11 +632,15 @@
     ],
     [
       "e63b1961-d904-476f-9eef-e137f6634033",
-      "Battery Management"
+      "Power Control"
     ],
     [
       "1a00298e-578e-405e-a237-0e73bd95a559",
       "Motor Control"
+    ],
+    [
+      "6eac1b2a-a67c-40af-8859-1b9af68b0985",
+      "Battery Control"
     ]
   ],
   "text_variables": {}

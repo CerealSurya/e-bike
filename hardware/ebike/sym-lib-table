@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ebike-Symbols")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/DRV8302.kicad_sym")(options "")(descr ""))
+)
