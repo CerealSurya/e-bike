@@ -5,4 +5,34 @@
 	(uuid "283f245c-9765-4f64-aba7-d957b8267b24")
 	(paper "A4")
 	(lib_symbols)
+	(text "Add xt60 connector for battery input"
+		(exclude_from_sim no)
+		(at 202.692 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d87f48b-c46f-4521-9d1b-1fc0ec447399")
+	)
+	(text "Implement current sensing + voltage divider to determine battery percentage"
+		(exclude_from_sim no)
+		(at 107.696 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf60af11-656f-45ed-92e7-55e7b20417b1")
+	)
+	(text "Use buck + ldo\n\n48v --> 5v --> 3.3v"
+		(exclude_from_sim no)
+		(at 32.004 25.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ebe6169f-7fff-4a86-898d-aa336dc6b13d")
+	)
 )
