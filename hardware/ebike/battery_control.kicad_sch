@@ -5,4 +5,14 @@
 	(uuid "8c619965-7db5-4b91-adf3-9b80535af197")
 	(paper "A4")
 	(lib_symbols)
+	(text "Implement current sensing + voltage divider to determine battery percentage"
+		(exclude_from_sim no)
+		(at 134.112 38.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "611d1ccf-4267-48ef-8bbb-d2c8c247be40")
+	)
 )
