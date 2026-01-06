@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "BLDC Driver")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/DRV8302.kicad_sym")(options "")(descr ""))
   (lib (name "LDO")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TC2117-3.3VEBTR.kicad_sym")(options "")(descr ""))
+  (lib (name "Buzzer")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/PS1240P02BT.kicad_sym")(options "")(descr ""))
 )

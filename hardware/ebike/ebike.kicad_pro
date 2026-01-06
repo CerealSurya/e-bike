@@ -627,16 +627,16 @@
       "Root"
     ],
     [
-      "49c79d0c-d7a6-47ea-b34f-6878ec054eb8",
-      "Peripherals"
-    ],
-    [
       "e63b1961-d904-476f-9eef-e137f6634033",
       "Power Control"
     ],
     [
       "1a00298e-578e-405e-a237-0e73bd95a559",
       "Motor Control"
+    ],
+    [
+      "075deff4-45b9-41ed-9dc1-fba6db44a2f6",
+      "Peripherals"
     ]
   ],
   "text_variables": {}

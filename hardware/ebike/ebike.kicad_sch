@@ -4947,6 +4947,48 @@
 		)
 	)
 	(sheet
+		(at 21.59 91.44)
+		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "075deff4-45b9-41ed-9dc1-fba6db44a2f6")
+		(property "Sheetname" "Peripherals"
+			(at 21.59 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 21.59 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ebike"
+				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 72.39)
 		(size 27.94 12.7)
 		(exclude_from_sim no)
@@ -4983,49 +5025,7 @@
 		(instances
 			(project "ebike"
 				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 21.59 31.75)
-		(size 27.94 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "49c79d0c-d7a6-47ea-b34f-6878ec054eb8")
-		(property "Sheetname" "Peripherals"
-			(at 21.59 31.0384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 21.59 46.3046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ebike"
-				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
@@ -5067,7 +5067,7 @@
 		(instances
 			(project "ebike"
 				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
