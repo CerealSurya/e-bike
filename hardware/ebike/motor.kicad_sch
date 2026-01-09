@@ -1436,6 +1436,16 @@
 		)
 		(uuid d862cef7-4513-4e1c-bfbb-caf18188ad41)
 	)
+	(text "Place caps near STM"
+		(exclude_from_sim no)
+		(at 231.648 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c5535cc-2aa2-4952-bf97-7d9a7a32f7ae")
+	)
 	(text "Double check resistor values + diode plcaement + check if Caps for SENSEBAT needed? / move to PC\n"
 		(exclude_from_sim no)
 		(at 225.044 53.34 0)
@@ -1455,6 +1465,16 @@
 			)
 		)
 		(uuid "3970f0b0-ec43-4fc7-9a91-19d6dc37eff6")
+	)
+	(text "Remove 2.2? / place these in the PC"
+		(exclude_from_sim no)
+		(at 68.58 23.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7cecd81e-cf09-483c-b947-a0c00769414a")
 	)
 	(text "HAL Pullup + Lowpass filter (filters switching noise), change screw?"
 		(exclude_from_sim no)
