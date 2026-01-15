@@ -1389,8 +1389,8 @@
 		)
 	)
 	(rectangle
-		(start 173.99 63.5)
-		(end 241.3 93.98)
+		(start 161.29 63.5)
+		(end 284.48 93.98)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1466,9 +1466,9 @@
 		)
 		(uuid "3970f0b0-ec43-4fc7-9a91-19d6dc37eff6")
 	)
-	(text "Remove 2.2? / place these in the PC"
+	(text "2.2 DC-Link decoupling"
 		(exclude_from_sim no)
-		(at 68.58 23.876 0)
+		(at 64.262 26.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1486,9 +1486,9 @@
 		)
 		(uuid "a76c9731-a3b5-422a-9403-ab5ddf16899a")
 	)
-	(text "Use KCL to calculate third phase current.\nUse three phase currents to calculate battery current \n[AC -> DC conversion to use following equation]\n--> Get battery percentage from that and V-divder\n"
+	(text "Use KCL to calculate third phase current.\nUse three phase currents to calculate battery current \n[AC -> DC conversion to use following equation]\n--> Get battery percentage from that and V-divder\n****** Maybe add third sense, b/c this assume\nthat current only goes through motor (maybe not?)\n^^ Look into this\n"
 		(exclude_from_sim no)
-		(at 259.08 70.104 0)
+		(at 258.064 74.676 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1619,7 +1619,7 @@
 		(uuid "6facfbe8-479b-4da3-a4be-fecd06693bbc")
 	)
 	(junction
-		(at 194.31 74.93)
+		(at 190.5 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d44ea5f-c5ff-418e-be80-fc6d5b7c3187")
@@ -1637,7 +1637,7 @@
 		(uuid "8116cff2-af7d-4bf6-aadd-1eb8598e4424")
 	)
 	(junction
-		(at 194.31 82.55)
+		(at 190.5 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89e46766-612f-48b6-b56a-454b567bc69d")
@@ -1766,7 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 85.09) (xy 200.66 82.55)
+			(xy 196.85 85.09) (xy 196.85 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1776,7 +1776,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 82.55) (xy 194.31 82.55)
+			(xy 173.99 82.55) (xy 175.26 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2016,7 +2016,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 74.93) (xy 194.31 74.93)
+			(xy 173.99 74.93) (xy 175.26 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2146,6 +2146,26 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 83.82) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c554f22-6d0b-4bc0-976c-6985189b5ac3")
+	)
+	(wire
+		(pts
+			(xy 182.88 82.55) (xy 190.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d320467-eded-488e-87d2-b3e65f3e4da4")
+	)
+	(wire
+		(pts
 			(xy 87.63 78.74) (xy 87.63 83.82)
 		)
 		(stroke
@@ -2163,6 +2183,16 @@
 			(type default)
 		)
 		(uuid "5afb282b-ed8f-4872-9f71-8e07ae3dc14f")
+	)
+	(wire
+		(pts
+			(xy 222.25 76.2) (xy 226.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2d4ae3-fa3b-48b3-9e0e-6bbf2069da67")
 	)
 	(wire
 		(pts
@@ -2196,7 +2226,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 82.55) (xy 196.85 82.55)
+			(xy 190.5 82.55) (xy 193.04 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2216,7 +2246,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 68.58) (xy 200.66 72.39)
+			(xy 196.85 68.58) (xy 196.85 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2246,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 83.82) (xy 226.06 83.82)
+			(xy 213.36 83.82) (xy 214.63 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2256,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 82.55) (xy 196.85 80.01)
+			(xy 193.04 82.55) (xy 193.04 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2436,6 +2466,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 74.93) (xy 190.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3603b6-b62c-47db-8e06-9a1ed8717c49")
+	)
+	(wire
+		(pts
 			(xy 186.69 120.65) (xy 190.5 120.65)
 		)
 		(stroke
@@ -2456,7 +2496,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 74.93) (xy 196.85 74.93)
+			(xy 190.5 74.93) (xy 193.04 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2866,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 76.2) (xy 226.06 76.2)
+			(xy 213.36 76.2) (xy 214.63 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2958,7 +2998,7 @@
 	)
 	(global_label "SHUNT2_B"
 		(shape input)
-		(at 219.71 83.82 180)
+		(at 213.36 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2968,7 +3008,7 @@
 		)
 		(uuid "0c1e0fda-e8ca-4645-9d13-20331feca128")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.1091 83.82 0)
+			(at 200.7591 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +3042,7 @@
 	)
 	(global_label "L1_VS"
 		(shape input)
-		(at 200.66 68.58 180)
+		(at 196.85 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3012,7 +3052,7 @@
 		)
 		(uuid "179b6559-7603-485b-a05a-507f7d14b70f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.1715 68.58 0)
+			(at 188.3615 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +3350,7 @@
 	)
 	(global_label "SHUNT1_B"
 		(shape input)
-		(at 187.96 82.55 180)
+		(at 173.99 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3320,7 +3360,7 @@
 		)
 		(uuid "65635a69-aaca-4823-b728-9e9f00c69296")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.3591 82.55 0)
+			(at 161.3891 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +3394,7 @@
 	)
 	(global_label "SHUNT1_A"
 		(shape input)
-		(at 187.96 74.93 180)
+		(at 173.99 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3364,7 +3404,7 @@
 		)
 		(uuid "6f7304e5-a623-4fec-a516-b616cb9d6c2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.5405 74.93 0)
+			(at 161.5705 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +3812,7 @@
 	)
 	(global_label "SHUNT2_A"
 		(shape input)
-		(at 219.71 76.2 180)
+		(at 213.36 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3782,7 +3822,7 @@
 		)
 		(uuid "f1b35d18-5cfa-469b-9c75-ddd0a71c4cde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2905 76.2 0)
+			(at 200.9405 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,35 +4340,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Shunt")
-		(at 200.66 77.47 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 179.07 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1f13db49-d0e3-4b2d-b2a0-8096a0256913")
-		(property "Reference" "R7"
-			(at 203.2 76.1999 0)
+		(uuid "148b48b5-3917-4754-9577-4677803782e8")
+		(property "Reference" "R42"
+			(at 179.07 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10m"
-			(at 200.66 75.438 90)
+		(property "Value" "100"
+			(at 179.07 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 202.438 77.47 90)
+			(at 179.07 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4374,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 77.47 0)
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0d71cce-7dca-49a3-8eaa-f8dcbc3ffeb4")
+		)
+		(pin "1"
+			(uuid "ae0a53bd-b6d3-4ffc-ad1c-ccda0462a30b")
+		)
+		(instances
+			(project "ebike"
+				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/1a00298e-578e-405e-a237-0e73bd95a559"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Shunt")
+		(at 196.85 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f13db49-d0e3-4b2d-b2a0-8096a0256913")
+		(property "Reference" "R7"
+			(at 198.374 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10m"
+			(at 196.85 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.628 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +4453,7 @@
 			)
 		)
 		(property "Description" "Shunt resistor"
-			(at 200.66 77.47 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +4763,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 78.74 180)
+		(at 190.5 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4664,7 +4771,7 @@
 		(dnp no)
 		(uuid "2dd55d6b-58e0-4394-8fb1-8672f1a564f4")
 		(property "Reference" "C35"
-			(at 193.802 76.708 0)
+			(at 189.992 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4780,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 193.802 80.772 0)
+			(at 189.992 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.3448 74.93 0)
+			(at 189.5348 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 78.74 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4807,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 194.31 78.74 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5586,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPD30N10S3L34ATMA1"
+		(property "Value" "CSD19532KTT"
 			(at 49.53 49.5299 0)
 			(effects
 				(font
@@ -5497,7 +5604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IPD30N10S3L34ATMA1/2231135"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/CSD19532KTT/6235555"
 			(at 43.18 60.96 0)
 			(effects
 				(font
@@ -6165,7 +6272,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 85.09 0)
+		(at 196.85 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6173,7 +6280,7 @@
 		(dnp no)
 		(uuid "8b7f8125-4b0f-44e6-9fde-d91bcae71251")
 		(property "Reference" "#PWR025"
-			(at 200.66 91.44 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6182,7 +6289,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 88.9 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 85.09 0)
+			(at 196.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 85.09 0)
+			(at 196.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 85.09 0)
+			(at 196.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +6419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPD30N10S3L34ATMA1"
+		(property "Value" "CSD19532KTT"
 			(at 91.44 74.9299 0)
 			(effects
 				(font
@@ -6546,7 +6653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPD30N10S3L34ATMA1"
+		(property "Value" "CSD19532KTT"
 			(at 91.44 49.5299 0)
 			(effects
 				(font
@@ -6780,7 +6887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPD30N10S3L34ATMA1"
+		(property "Value" "CSD19532KTT"
 			(at 130.81 49.5299 0)
 			(effects
 				(font
@@ -6925,6 +7032,73 @@
 			(project "ebike"
 				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/1a00298e-578e-405e-a237-0e73bd95a559"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8dba793-c8ed-4e61-803a-9de805e36187")
+		(property "Reference" "R45"
+			(at 218.44 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 218.44 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bd8dbd2-cf21-4a74-a163-44c951de6473")
+		)
+		(pin "1"
+			(uuid "ee7e1282-92d3-452f-9d48-6b1389b77843")
+		)
+		(instances
+			(project "ebike"
+				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/1a00298e-578e-405e-a237-0e73bd95a559"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -7085,7 +7259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPD30N10S3L34ATMA1"
+		(property "Value" "CSD19532KTT"
 			(at 130.81 74.9299 0)
 			(effects
 				(font
@@ -7185,7 +7359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IPD30N10S3L34ATMA1"
+		(property "Value" "CSD19532KTT"
 			(at 49.53 74.9299 0)
 			(effects
 				(font
@@ -7326,6 +7500,140 @@
 			(project "ebike"
 				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/1a00298e-578e-405e-a237-0e73bd95a559"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6913cf9-17f2-4b66-8c32-0ad3c533e9b6")
+		(property "Reference" "R43"
+			(at 179.07 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 179.07 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c40fd457-3a27-47f0-b92a-f8bd377ec646")
+		)
+		(pin "1"
+			(uuid "a6de6599-96c4-4be0-9496-1cff2f8ba927")
+		)
+		(instances
+			(project "ebike"
+				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/1a00298e-578e-405e-a237-0e73bd95a559"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdabc20d-7f95-4ed3-b6c8-10626d030500")
+		(property "Reference" "R44"
+			(at 218.44 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 218.44 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2974e9de-b512-4f9f-bfe7-f7f163a280b1")
+		)
+		(pin "1"
+			(uuid "e9559295-498d-4436-862b-f814a23293b4")
+		)
+		(instances
+			(project "ebike"
+				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/1a00298e-578e-405e-a237-0e73bd95a559"
+					(reference "R44")
 					(unit 1)
 				)
 			)
