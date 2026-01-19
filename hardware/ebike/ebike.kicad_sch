@@ -2285,16 +2285,6 @@
 		)
 		(uuid "16e79523-8763-4fa9-91db-b0ad4aad5fc0")
 	)
-	(text "Route this\n"
-		(exclude_from_sim no)
-		(at 183.134 114.554 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "39e220be-d64b-4d87-87b6-ab0eb967c6fa")
-	)
 	(junction
 		(at 182.88 58.42)
 		(diameter 0)
@@ -3161,6 +3151,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 68.58) (xy 171.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c1f1dd-a989-469f-86cc-420e7f9f5a41")
+	)
+	(wire
+		(pts
 			(xy 130.81 101.6) (xy 133.35 101.6)
 		)
 		(stroke
@@ -3321,22 +3321,22 @@
 	)
 	(global_label "OCTW"
 		(shape input)
-		(at 186.69 116.84 180)
+		(at 171.45 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1d9040a9-daeb-4713-a2d7-c0a1076399b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.6853 116.84 0)
+			(at 179.4547 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
