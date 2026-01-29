@@ -3081,16 +3081,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 86.36) (xy 181.61 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6367269-3d39-4b1a-8a8f-dfb0fce45cfe")
-	)
-	(wire
-		(pts
 			(xy 167.64 39.37) (xy 172.72 39.37)
 		)
 		(stroke
@@ -3365,7 +3355,7 @@
 	)
 	(global_label "BuzzerPWM"
 		(shape output)
-		(at 181.61 90.17 0)
+		(at 181.61 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3375,7 +3365,7 @@
 		)
 		(uuid "32520d0a-61f6-4c88-99f9-0d8aa39500d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.118 90.17 0)
+			(at 195.118 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

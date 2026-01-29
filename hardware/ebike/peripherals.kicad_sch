@@ -2103,156 +2103,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2550,322 +2400,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3533,8 +3067,8 @@
 		(uuid d00ca0d0-5bf0-40c3-b192-079591e78057)
 	)
 	(rectangle
-		(start 215.9 62.23)
-		(end 260.35 95.25)
+		(start 219.71 67.31)
+		(end 254 88.9)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3574,9 +3108,19 @@
 		)
 		(uuid "9a32dd96-8b91-4c5d-9472-ab8458fc667f")
 	)
+	(text "Change USBC, shouldn't be plug needs to be receptacle or sum"
+		(exclude_from_sim no)
+		(at 59.436 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b69c0e42-5da8-4001-9d6a-5c9210ce6bf7")
+	)
 	(text "Buzzer\n"
 		(exclude_from_sim no)
-		(at 218.948 61.214 0)
+		(at 222.758 66.294 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3593,6 +3137,16 @@
 			)
 		)
 		(uuid "bfc380e9-a14d-449a-9dbf-9943a8b06929")
+	)
+	(text "Double check this, \nif antenna blows up, change it\n"
+		(exclude_from_sim no)
+		(at 237.49 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de535f48-b997-4059-b76f-5d26a184db8b")
 	)
 	(text "USB-C + USB-UART Bridge\n"
 		(exclude_from_sim no)
@@ -3619,12 +3173,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09aa1cfc-70c6-4916-95b8-290e8a2cdc6f")
-	)
-	(junction
-		(at 233.68 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "265d4cae-7f15-4690-990b-b8af620b5e80")
 	)
 	(junction
 		(at 82.55 119.38)
@@ -3657,12 +3205,6 @@
 		(uuid "9b3371b1-6b3d-4f57-abc7-83a2c9c4a7ed")
 	)
 	(junction
-		(at 243.84 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c14149dd-1e0b-43dd-9252-8ea999610505")
-	)
-	(junction
 		(at 72.39 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3673,12 +3215,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb748ef4-ec0d-4801-b8a0-a51dbd42d995")
-	)
-	(junction
-		(at 175.26 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff54f679-6022-4f06-a5e0-5aadff797b72")
 	)
 	(no_connect
 		(at 92.71 71.12)
@@ -3758,26 +3294,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 81.28) (xy 233.68 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a566e94-886f-4e80-b731-5ff68e24ac79")
-	)
-	(wire
-		(pts
-			(xy 175.26 106.68) (xy 175.26 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ae3c53b-d255-4041-80d1-7abf709de410")
-	)
-	(wire
-		(pts
 			(xy 68.58 68.58) (xy 67.31 68.58)
 		)
 		(stroke
@@ -3795,16 +3311,6 @@
 			(type default)
 		)
 		(uuid "18a9834a-82db-4685-b475-639f41711137")
-	)
-	(wire
-		(pts
-			(xy 248.92 72.39) (xy 248.92 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d068184-9038-470e-a9ba-fdefea33c806")
 	)
 	(wire
 		(pts
@@ -3828,16 +3334,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 110.49) (xy 167.64 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2371449c-d0fa-4cc1-84fc-f84fc91640f0")
-	)
-	(wire
-		(pts
 			(xy 184.15 113.03) (xy 186.69 113.03)
 		)
 		(stroke
@@ -3855,16 +3351,6 @@
 			(type default)
 		)
 		(uuid "266c883e-769c-44ff-9850-60c1658ebd7e")
-	)
-	(wire
-		(pts
-			(xy 242.57 76.2) (xy 243.84 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cf7baac-e4b1-49df-899e-2f3787f6c324")
 	)
 	(wire
 		(pts
@@ -3908,16 +3394,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 72.39) (xy 243.84 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bd9c69f-7bce-4607-8be3-6b4ea82432ea")
-	)
-	(wire
-		(pts
 			(xy 123.19 66.04) (xy 127 66.04)
 		)
 		(stroke
@@ -3938,13 +3414,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 72.39) (xy 248.92 72.39)
+			(xy 186.69 113.03) (xy 191.77 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67b68fa9-c76e-4595-8e27-a34aedbb6344")
+		(uuid "5be7470a-d7bc-4447-9fc7-ce1b8e488d91")
 	)
 	(wire
 		(pts
@@ -3975,16 +3451,6 @@
 			(type default)
 		)
 		(uuid "72561f1a-0d0f-4599-9c33-16301b790712")
-	)
-	(wire
-		(pts
-			(xy 234.95 76.2) (xy 233.68 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7806434a-9dbe-4da8-a6e5-9743af69c910")
 	)
 	(wire
 		(pts
@@ -4068,16 +3534,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 69.85) (xy 243.84 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c7bb6e-7051-4528-8793-8924315804dd")
-	)
-	(wire
-		(pts
 			(xy 67.31 55.88) (xy 60.96 55.88)
 		)
 		(stroke
@@ -4085,16 +3541,6 @@
 			(type default)
 		)
 		(uuid "9b9f305b-8baf-4e17-bb5c-62694e491325")
-	)
-	(wire
-		(pts
-			(xy 186.69 113.03) (xy 191.77 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f1f99c-aa21-459e-8417-bf22171c1af4")
 	)
 	(wire
 		(pts
@@ -4118,7 +3564,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 69.85) (xy 233.68 69.85)
+			(xy 233.68 74.93) (xy 238.76 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4188,7 +3634,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 86.36) (xy 248.92 88.9)
+			(xy 248.92 74.93) (xy 248.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4208,7 +3654,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 175.26 110.49)
+			(xy 175.26 106.68) (xy 175.26 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4266,16 +3712,6 @@
 		)
 		(uuid "fc78f0af-79c7-47fd-84fe-61cf17d9f637")
 	)
-	(wire
-		(pts
-			(xy 233.68 76.2) (xy 233.68 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd3f666-1fa4-45c0-be9a-c16e1d1e01f3")
-	)
 	(global_label "TempADC"
 		(shape output)
 		(at 233.68 111.76 0)
@@ -4300,7 +3736,7 @@
 	)
 	(global_label "ThrottleADC"
 		(shape output)
-		(at 190.5 113.03 0)
+		(at 191.77 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4310,7 +3746,7 @@
 		)
 		(uuid "73f7329d-e9c0-42fe-a815-a63bcc844465")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.3708 113.03 0)
+			(at 205.6408 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +3868,7 @@
 	)
 	(global_label "BuzzerPWM"
 		(shape input)
-		(at 231.14 81.28 180)
+		(at 233.68 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4442,7 +3878,7 @@
 		)
 		(uuid "d17d9bc7-928b-4d8a-b574-c46655b355c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.632 81.28 0)
+			(at 220.172 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,75 +3973,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 238.76 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03477065-85dd-4c10-8cfa-5210029c096c")
-		(property "Reference" "R35"
-			(at 240.792 74.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 240.03 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 77.978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 238.76 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77f00f4f-7bca-46b1-bbe4-5af2b0d1d655")
-		)
-		(pin "1"
-			(uuid "7217a612-604b-4bd7-97b7-03d62447618f")
-		)
-		(instances
-			(project ""
-				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/075deff4-45b9-41ed-9dc1-fba6db44a2f6"
-					(reference "R35")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5296,7 +4663,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 88.9 0)
+		(at 248.92 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5304,7 +4671,7 @@
 		(dnp no)
 		(uuid "44fc5ee7-4acb-4a11-ba48-9f07b1dc1e39")
 		(property "Reference" "#PWR046"
-			(at 248.92 95.25 0)
+			(at 248.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +4680,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 92.71 0)
+			(at 248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +4688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 88.9 0)
+			(at 248.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +4697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 88.9 0)
+			(at 248.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,7 +4706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 88.9 0)
+			(at 248.92 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +4794,7 @@
 	)
 	(symbol
 		(lib_id "Buzzer:PS1240P02BT")
-		(at 238.76 69.85 0)
+		(at 243.84 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5435,7 +4802,7 @@
 		(dnp no)
 		(uuid "498fe318-699a-4e12-b9f9-4e9331f28436")
 		(property "Reference" "LS1"
-			(at 238.76 66.04 0)
+			(at 243.84 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +4810,7 @@
 			)
 		)
 		(property "Value" "PS1240P02BT"
-			(at 239.014 64.262 0)
+			(at 244.094 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +4818,7 @@
 			)
 		)
 		(property "Footprint" "PS1240P02BT:XDCR_PS1240P02BT"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,7 +4828,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/PS1240P02BT/935924"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +4837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +4846,7 @@
 			)
 		)
 		(property "MF" "TDK Corporation"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +4856,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "7.0mm"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +4866,7 @@
 			)
 		)
 		(property "PACKAGE" "SIP-5 TDK"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,7 +4876,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +4886,7 @@
 			)
 		)
 		(property "Package" "Custom Package TDK"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +4896,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PS1240P02BT/TDK/view-part/?ref=eda"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5539,7 +4906,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +4916,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PS1240P02BT/TDK/view-part/?ref=snap"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +4926,7 @@
 			)
 		)
 		(property "MP" "PS1240P02BT"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +4936,7 @@
 			)
 		)
 		(property "Description_1" "Buzzers Transducer, Externally Driven Piezo 3 V - 4kHz 60dB @ 3V, 10cm Through Hole PC Pins"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +4946,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +4956,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +4966,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Buzzers Transducer, Externally Driven Piezo 3V 4kHz 60dB @ 3V, 10cm Through Hole PC Pins"
-			(at 238.76 69.85 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,105 +4985,6 @@
 			(project "ebike"
 				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/075deff4-45b9-41ed-9dc1-fba6db44a2f6"
 					(reference "LS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 246.38 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52a0e8ec-b09e-456d-b2b0-275a8619c1e0")
-		(property "Reference" "Q8"
-			(at 250.698 79.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 250.444 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 246.38 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 246.38 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 246.38 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 246.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 246.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6ff9a992-a6a4-40cc-87c0-8ee6d943fbde")
-		)
-		(pin "1"
-			(uuid "176ff024-e7f4-43ec-af31-16c986fdb4e4")
-		)
-		(pin "2"
-			(uuid "7c541060-0d2f-40ff-b43b-07e54c1e67da")
-		)
-		(instances
-			(project ""
-				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/075deff4-45b9-41ed-9dc1-fba6db44a2f6"
-					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -5859,75 +5127,6 @@
 			(project "ebike"
 				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/075deff4-45b9-41ed-9dc1-fba6db44a2f6"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 237.49 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ca9bd99-75ca-4a91-bbda-af345203146c")
-		(property "Reference" "R36"
-			(at 239.522 79.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 238.76 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35827e43-38a2-437e-9d21-60ad56216e11")
-		)
-		(pin "1"
-			(uuid "715a0c78-180f-4041-92e8-b312b557bb96")
-		)
-		(instances
-			(project "ebike"
-				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/075deff4-45b9-41ed-9dc1-fba6db44a2f6"
-					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -6428,72 +5627,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 228.6 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7142c91-f8e8-467d-af02-7f730911160e")
-		(property "Reference" "#PWR054"
-			(at 228.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 228.6 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 228.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f487931d-c5e2-4996-821c-4f07d08c944d")
-		)
-		(instances
-			(project ""
-				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/075deff4-45b9-41ed-9dc1-fba6db44a2f6"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 181.61 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6661,71 +5794,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aca3603e-8f8b-40b5-9a1e-a4f1e1ff5136")
-		(property "Reference" "#PWR053"
-			(at 166.37 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0583f24e-afbe-4ee9-a387-3f97a34ab804")
-		)
-		(instances
-			(project "ebike"
-				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/075deff4-45b9-41ed-9dc1-fba6db44a2f6"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 82.55 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6850,73 +5918,6 @@
 			(project ""
 				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/075deff4-45b9-41ed-9dc1-fba6db44a2f6"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 171.45 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b50c6dc7-b407-448a-9637-738db5d6562c")
-		(property "Reference" "D7"
-			(at 171.45 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 171.45 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 171.45 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02337b88-47f8-4921-82c3-7e0a01507c02")
-		)
-		(pin "2"
-			(uuid "9765be51-e6fb-4b3e-8682-8b7ac3a828c3")
-		)
-		(instances
-			(project "ebike"
-				(path "/fbe3366b-3e6e-4322-b4fc-2801645ea115/075deff4-45b9-41ed-9dc1-fba6db44a2f6"
-					(reference "D7")
 					(unit 1)
 				)
 			)
