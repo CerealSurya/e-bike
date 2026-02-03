@@ -1390,7 +1390,7 @@
 	)
 	(rectangle
 		(start 105.41 102.87)
-		(end 184.15 143.51)
+		(end 184.15 140.97)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1456,6 +1456,16 @@
 		)
 		(uuid "3970f0b0-ec43-4fc7-9a91-19d6dc37eff6")
 	)
+	(text "Need to change shunt resistor values for initial testing!!!!!!\n"
+		(exclude_from_sim no)
+		(at 140.97 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c3667bf-313d-497e-be93-0a2ae6f277cf")
+	)
 	(text "Place cap close to pins on DRV"
 		(exclude_from_sim no)
 		(at 123.444 125.476 0)
@@ -1488,7 +1498,7 @@
 	)
 	(text "Use KCL to calculate third phase current.\nUse three phase currents to estimate battery current \n[AC -> DC conversion to use following equation]\n--> Get battery percentage from that and V-divder\n\n"
 		(exclude_from_sim no)
-		(at 146.05 139.192 0)
+		(at 146.05 136.906 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6972,7 +6982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0805C104KMREC7210/8645300"
 			(at 254 64.77 0)
 			(effects
 				(font

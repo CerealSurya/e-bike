@@ -3,6 +3,7 @@
   (lib (name "BLDC Driver")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/DRV8302.kicad_sym")(options "")(descr ""))
   (lib (name "LDO")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TC2117-3.3VEBTR.kicad_sym")(options "")(descr ""))
   (lib (name "Buzzer")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/PS1240P02BT.kicad_sym")(options "")(descr ""))
-  (lib (name "TI_ESD")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TPD2E001DRSR.kicad_sym")(options "")(descr ""))
+  (lib (name "TI_ESD")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TPD2E001DRSR.kicad_sym")(options "")(descr "")(disabled))
   (lib (name "Bridge")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/MCP2221A-I_SL.kicad_sym")(options "")(descr ""))
+  (lib (name "ESD")(type "KiCad")(uri "${KIPRJMOD}/lib/symbols/TPD4E05U06DQAR.kicad_sym")(options "")(descr ""))
 )

@@ -2275,6 +2275,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Is this zener diode placement correct?"
+		(exclude_from_sim no)
+		(at 223.012 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b208a41-1a62-44ff-ac02-c9da3553ae6c")
+	)
 	(text "PB6-TX, PB7-RX"
 		(exclude_from_sim no)
 		(at 109.728 103.378 0)
@@ -3985,7 +3995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0805C104KMREC7210/8645300"
 			(at 210.82 69.85 0)
 			(effects
 				(font
@@ -4054,7 +4064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0805C104KMREC7210/8645300"
 			(at 119.38 43.18 0)
 			(effects
 				(font
@@ -4529,7 +4539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0805C104KMREC7210/8645300"
 			(at 127 43.18 0)
 			(effects
 				(font
@@ -4730,7 +4740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0805C104KMREC7210/8645300"
 			(at 107.95 60.96 0)
 			(effects
 				(font
@@ -4867,7 +4877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0805C104KMREC7210/8645300"
 			(at 111.76 43.18 0)
 			(effects
 				(font
@@ -5464,7 +5474,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "2.2u"
 			(at 135.128 45.72 0)
 			(effects
 				(font
@@ -5482,7 +5492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 134.62 43.18 0)
 			(effects
 				(font
